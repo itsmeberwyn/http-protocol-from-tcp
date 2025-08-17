@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"log"
+	"os"
 	"strings"
 )
 
@@ -24,7 +24,7 @@ func main() {
 
 		parts := strings.Split(string(data[:count]), "\n")
 		newLineData := data
-		
+
 		if len(parts) > 1 {
 			currentLine += parts[0]
 			fmt.Printf("read: %s\n", currentLine)
